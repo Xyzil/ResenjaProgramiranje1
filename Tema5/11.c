@@ -8,6 +8,8 @@ int main() {
 	
 	int p = 1;
 	
+	// Ovde se koristi ternarni operator, moze naravno i sa if
+	
 	p *= (a < 0 ? a : 1);
 	p *= (b < 0 ? b : 1);
 	p *= (c < 0 ? c : 1);
