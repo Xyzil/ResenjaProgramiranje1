@@ -18,6 +18,9 @@ int main() {
 	s = (x/100) % 10;
 	h = x / 1000;
 	
+	// Napomena: x&1 daje 1 ako je bit sa najmanjom vrednoscu 1, 0 ako je 0
+	// 	    !(x&1) daje 0 ako je bit sa najmanjom vrednoscu 1, 1 ako je 0
+	
 	if (!(j&1)) a++;
 	if (d&1) a++;
 	if (!(s&1)) a++;
