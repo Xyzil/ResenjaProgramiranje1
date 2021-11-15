@@ -9,11 +9,13 @@ int main() {
 	
 	int z = 0;
 	
-	z+= (isdigit(a) ? a : 0);
-	z+= (isdigit(b) ? b : 0);
-	z+= (isdigit(c) ? c : 0);
-	z+= (isdigit(d) ? d : 0);
-	z+= (isdigit(e) ? e : 0);
+	// Koristi se ternarni operator, moze i if
+	
+	z += (isdigit(a) ? a : 0);
+	z += (isdigit(b) ? b : 0);
+	z += (isdigit(c) ? c : 0);
+	z += (isdigit(d) ? d : 0);
+	z += (isdigit(e) ? e : 0);
 	
 	printf("%d", z);
 	
